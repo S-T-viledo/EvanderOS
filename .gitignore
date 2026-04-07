@@ -2,4 +2,8 @@
 *.bin
 *.elf
 *.img
+*.map
 .DS_Store
+*.kate-swp
+*.swp
+*.swo

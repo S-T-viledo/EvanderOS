@@ -3,13 +3,13 @@
 This is a toy OS project built for learning and pure entertainment. Don't expect to run Crysis on it, but if you like poking around bytes and registers, you're in the right place. 
 
 
-English
+**English**
 
-🌟 About
+🌟 **About**
 
 EvanderOS is a "just-for-fun" text-mode 32-bit operating system running on x86. It's a playground where I hand-rolled everything from the bootloader to a custom assembler(but still don't support grub yet). It’s simple, slightly raw, and definitely not "production-ready," but it's a great way to see how an OS actually breathes.
 
-🚀 Features
+🚀 **Features**
 
 **simple user library**: Serves as a bridge between syscalls and user programs. All user programs (./apps & ./user) are based on it.
 
@@ -25,7 +25,7 @@ EvanderOS is a "just-for-fun" text-mode 32-bit operating system running on x86. 
 
 **Snake in ASM**: Check out the apps/ folder for a Snake game written entirely in assembly. And you are able to compile it with the easm within qemu and launch the game successfully! 
 
-🛠️ Build & Play
+🛠️ ###Build & Play###
 
 Prerequisites: nasm, gcc-multilib, qemu-system-i386, mtools.
 
@@ -36,7 +36,9 @@ make
 make qemu
 
 
-中文
+
+
+**中文**
 
 🌟 关于
 
@@ -44,6 +46,7 @@ EvanderOS 是一个由学习&娱乐应运而生的简单（甚至有点简陋）
 
 
 🚀 有什么
+
 **userlib（简单用户库）**：作为syscall和用户程序调用的桥梁。所有用户程序(./apps & ./user)都基于它。
 
 **shell**：简单shell界面，支持文件操作，输入help获得更多帮助。
@@ -61,15 +64,15 @@ EvanderOS 是一个由学习&娱乐应运而生的简单（甚至有点简陋）
 
 ## 📸 Gallery
 
-### EvanderOS Shell ###  *The nostalgic DOS-like interface*
+### EvanderOS Shell 
 ![Shell Screenshot](images/screenshot1.png)
 
 
-### Snake Game ###  *Pure assembly text snake game running on custom OS*
+### Snake Game
 ![Snake Game](images/screenshot2.png)
 
 
-### Self-Hosting Demo ###  *evim editor + easm assembler = bootstrap moment*
+### Self-Hosting Demo
 ![Self-Hosting](images/screenshot3.png)
 
 

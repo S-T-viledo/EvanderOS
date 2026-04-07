@@ -1,6 +1,6 @@
-EvanderOS & easm & evim
+# EvanderOS & easm & evim
 
- This is a toy OS project built for learning and pure entertainment. Don't expect to run Crysis on it, but if you like poking around bytes and registers, you're in the right place. 
+This is a toy OS project built for learning and pure entertainment. Don't expect to run Crysis on it, but if you like poking around bytes and registers, you're in the right place. 
 
 English | 中文
 
